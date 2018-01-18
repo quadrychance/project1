@@ -1,0 +1,51 @@
+
+#!/bin/bash
+
+
+for file in `ls */*/info.out`; do
+     dirn=$(dirname $file)
+     cd dirn
+     file=$(basename $file)
+     grep  "was hit by" $file > tree.txt
+     sed 's/e//g' $file > tree1.txt
+     sed 's/p/1/g' $file > tree2.txt
+     cd -
+done
+
+
+
+
+for file in `ls */*/big.in`; do
+    # fix line folding and rename to .new
+    dirn=$(dirname $file)
+    cd dirn
+    file=$(basename $file)
+    sed ':a;;N;$!ba;s/\n  /  /g' $file > $file.new
+    grep -v "e" $file > temp && mv temp bigparams.txt
+    grep  "e" $file > temp && mv temp waterbig.txt
+    cd -
+done
+
+for file in `ls */*/small.in`; do
+    grep -v "e" $file > temp && mv temp smallparams.txt
+    grep  "e" $file > temp && mv temp watersmall.txt
+    cd -
+done
+
+for file in `ls */waterbig.txt`; do
+    dirn=$(dirname $file)
+    cd dirn
+    file=$(basename $file)
+    sed 's/=/ /g' $file > waterbig2.txt
+    cd -
+done
+
+for file in `ls */watersmall.txt`; do
+    dirn=$(dirname $file)
+    cd dirn
+    file=$(basename $file)
+    sed 's/=/ /g' $file > watersmall2.txt
+    cd -
+
+
+done

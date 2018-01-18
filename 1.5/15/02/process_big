@@ -1,0 +1,60 @@
+
+#!/bin/bash
+
+
+for file in info.out; do
+
+     file=$(basename $file)
+     grep  "was hit by" $file > tree.txt
+     sed 's/e//g' tree.txt > tree1.txt
+     sed 's/p/1/g' tree1.txt > tree2.txt
+
+done
+
+
+
+
+for file in big.in; do
+    # fix line folding and rename to .new
+
+    file=$(basename $file)
+    sed ':a;;N;$!ba;s/\n  /  /g' $file > $file.new
+    grep -v "e" $file > temp && mv temp bigparams.txt
+    grep  "e" $file > temp && mv temp waterbig.txt
+
+done
+
+for file in small.in; do
+    grep -v "e" $file > temp && mv temp smallparams.txt
+    grep  "e" $file > temp && mv temp watersmall.txt
+
+done
+
+for file in waterbig.txt; do
+
+    file=$(basename $file)
+    sed 's/=/ /g' $file > waterbig2.txt
+    sed 's/e//g' waterbig2.txt > waterbig3.txt
+    sed 's/p/1/g' waterbig2.txt > waterbig4.txt
+
+done
+
+for file in watersmall.txt; do
+
+    file=$(basename $file)
+    sed 's/=/ /g' $file > watersmall2.txt
+    sed 's/e//g' watersmall2.txt > watersmall3.txt
+    sed 's/p/1/g' watersmall2.txt > watersmall4.txt
+
+
+
+done
+
+for file in element.out; do
+    file=$(basename $file)
+
+    sed 's/e//g' element.out > element1.out
+    sed 's/p/1/g' element1.out > element2.out
+
+
+done

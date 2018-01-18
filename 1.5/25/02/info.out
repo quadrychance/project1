@@ -1,0 +1,296 @@
+
+           Integration parameters
+           ----------------------
+
+   Algorithm: Hybrid symplectic integrator (mixed coordinates)
+
+   Integration start epoch:               0.0000000 days 
+   Integration stop  epoch:      3652500000.0000000
+   Output interval:                  365250.000
+   Output precision:                 medium
+
+   Initial timestep:                0.500 days 
+   Accuracy parameter:              1.0000E-12
+   Central mass:                    1.0000E+00 solar masses
+   J_2:                              0.0000E+00
+   J_4:                              0.0000E+00
+   J_6:                              0.0000E+00
+   Ejection distance:               1.0000E+02 AU
+   Radius of central body:          5.0000E-03 AU
+
+   Includes collisions:                 yes
+   Includes fragmentation:              no 
+   Includes relativity:                 no 
+   Includes user-defined force routine: no 
+
+   Number of Big bodies:       23
+   Number of Small bodies:    230
+
+
+           Integration details
+           -------------------
+
+   Initial energy:           -3.42335E-08 solar masses AU^2 day^-2 
+   Initial angular momentum:  5.26609E-07 solar masses AU^2 day^-1 
+
+   Integrating massive bodies and particles up to the same epoch.
+
+   Beginning the main integration.
+
+ e01      was hit by p010     at           0.537 years
+ e03      was hit by p030     at           3.489 years
+ e14      was hit by p140     at           5.559 years
+ e06      was hit by p060     at           7.240 years
+ e03      was hit by p039     at          18.383 years
+ e16      was hit by p169     at          23.123 years
+ e10      was hit by p100     at          28.017 years
+ e03      was hit by p037     at          37.726 years
+ e02      was hit by p013     at          55.374 years
+ e00      was hit by p005     at          64.853 years
+ e06      was hit by p061     at          75.114 years
+ e07      was hit by p073     at          87.730 years
+ e01      was hit by p014     at         106.283 years
+ e19      was hit by p197     at         115.209 years
+ e02      was hit by p016     at         116.508 years
+ e04      was hit by p032     at         134.064 years
+ e04      was hit by p031     at         174.457 years
+ e05      was hit by p068     at         191.315 years
+ e06      was hit by p069     at         204.682 years
+ e03      was hit by p033     at         213.673 years
+ e01      was hit by p002     at         217.059 years
+ e08      was hit by p088     at         222.090 years
+ e01      was hit by p022     at         229.823 years
+ e08      was hit by p082     at         236.862 years
+ e00      was hit by p017     at         260.955 years
+ e00      was hit by p000     at         302.403 years
+ e07      was hit by p084     at         319.769 years
+ e07      was hit by p071     at         323.070 years
+ e01      was hit by p019     at         338.825 years
+ e07      was hit by p075     at         376.711 years
+ e02      was hit by p018     at         385.720 years
+ e03      was hit by p020     at         388.629 years
+ e16      was hit by p162     at         421.293 years
+ e02      was hit by p027     at         426.674 years
+ e13      was hit by p131     at         455.657 years
+ e03      was hit by p038     at         455.660 years
+ e01      was hit by p007     at         474.391 years
+ e17      was hit by p172     at         478.798 years
+ e16      was hit by p166     at         500.626 years
+ e03      was hit by p025     at         509.165 years
+ e03      was hit by p023     at         512.165 years
+ e09      was hit by p097     at         525.335 years
+ e06      was hit by p077     at         560.117 years
+ e14      was hit by p145     at         584.732 years
+ e05      was hit by p057     at         604.529 years
+ e02      was hit by p008     at         638.235 years
+ e11      was hit by p101     at         655.156 years
+ e06      was hit by p067     at         681.996 years
+ e04      was hit by p055     at         719.679 years
+ e07      was hit by p078     at         731.162 years
+ e01      was hit by p011     at         760.074 years
+ e04      was hit by p043     at         760.693 years
+ e06      was hit by p063     at         773.438 years
+ e01      was hit by p024     at         778.181 years
+ e01      was hit by p021     at         785.911 years
+ e07      was hit by p092     at         809.158 years
+ e05      was hit by p052     at         825.749 years
+ e04      was hit by p049     at         829.201 years
+ e04      was hit by p040     at         854.928 years
+ e07      was hit by p066     at         857.173 years
+ e04      was hit by p036     at         872.117 years
+ e09      was hit by p085     at         874.181 years
+ e11      was hit by p119     at         882.479 years
+ e04      was hit by p028     at         886.999 years
+ e05      was hit by p058     at         891.860 years
+ e03      was hit by p035     at         930.084 years
+ e00      was hit by p009     at         942.920 years
+ e04      was hit by p059     at        1013.134 years
+ e04      was hit by p048     at        1022.213 years
+ e07      was hit by p076     at        1053.331 years
+ e04      was hit by p053     at        1113.678 years
+ e04      was hit by p034     at        1125.503 years
+ e19      was hit by p184     at        1213.862 years
+ e15      was hit by p159     at        1230.734 years
+ e09      was hit by p072     at        1254.054 years
+ e05      was hit by p044     at        1270.642 years
+ e05      was hit by p079     at        1296.075 years
+ e09      was hit by p089     at        1298.793 years
+ e04      was hit by p065     at        1308.088 years
+ e08      was hit by p098     at        1325.259 years
+ e09      was hit by p087     at        1336.497 years
+ e06      was hit by p062     at        1342.546 years
+ e03      was hit by p015     at        1561.655 years
+ e13      was hit by p153     at        1578.404 years
+ e03      was hit by p045     at        1655.645 years
+ e10      was hit by p091     at        1766.095 years
+ e03      was hit by p042     at        1804.717 years
+ e03      was hit by p047     at        1836.324 years
+ e07      was hit by p070     at        1959.713 years
+ e12      was hit by p126     at        2004.587 years
+ e08      was hit by p093     at        2023.515 years
+ e01      was hit by p026     at        2063.962 years
+ e19      was hit by p193     at        2115.950 years
+ e00      was hit by p006     at        2143.930 years
+ e04      was hit by p050     at        2190.778 years
+ e03      was hit by p054     at        2210.082 years
+ e02      was hit by p046     at        2232.026 years
+ e12      was hit by p123     at        2275.615 years
+ e02      was hit by p041     at        2366.072 years
+ e10      was hit by p102     at        2387.973 years
+ e07      was hit by p074     at        2485.129 years
+ e02      was hit by p003     at        2493.728 years
+ e00      was hit by p004     at        2552.195 years
+ e00      was hit by p001     at        2558.814 years
+ e13      was hit by p138     at        2620.512 years
+ e06      was hit by p064     at        2845.214 years
+ e12      was hit by p116     at        2946.877 years
+ e04      was hit by p051     at        3049.568 years
+ e17      was hit by p179     at        3091.655 years
+ e12      was hit by p128     at        3148.507 years
+ e09      was hit by p121     at        3328.434 years
+ e11      was hit by p105     at        3448.403 years
+ e01      was hit by p012     at        3468.951 years
+ e12      was hit by p144     at        3654.478 years
+ e11      was hit by p118     at        3722.507 years
+ e18      was hit by p205     at        3739.682 years
+ e11      was hit by p107     at        3746.520 years
+ e10      was hit by p086     at        3893.360 years
+ e19      was hit by p202     at        4395.965 years
+ e10      was hit by p095     at        4508.828 years
+ e07      was hit by p083     at        4549.228 years
+ e20      was hit by p213     at        4658.902 years
+ e13      was hit by p122     at        4791.668 years
+ e07      was hit by p081     at        4932.819 years
+ e10      was hit by p109     at        5366.172 years
+ e06      was hit by p056     at        5396.784 years
+ e13      was hit by p139     at        5800.444 years
+ e12      was hit by p113     at        6014.131 years
+ e11      was hit by p096     at        6048.850 years
+ e11      was hit by p094     at        6197.515 years
+ e22      was hit by p227     at        6455.613 years
+ e04      was hit by p029     at        6623.022 years
+ e12      was hit by p130     at        7629.227 years
+ e11      was hit by p090     at        7896.819 years
+ e14      was hit by p168     at        8363.399 years
+ e01      was hit by e00      at        8828.654 years
+ e03      was hit by e02      at        9130.105 years
+ e17      was hit by p194     at        9450.387 years
+ e14      was hit by p127     at        9583.597 years
+ e07      was hit by p080     at        9709.877 years
+ e16      was hit by p165     at        9796.827 years
+ e10      was hit by p117     at        9798.977 years
+ e08      was hit by p114     at       10310.396 years
+ e17      was hit by p147     at       10596.338 years
+ e13      was hit by p133     at       10969.011 years
+ e17      was hit by p136     at       11063.309 years
+ e07      was hit by p108     at       11189.403 years
+ e11      was hit by p106     at       11260.685 years
+ e04      was hit by e05      at       11423.650 years
+ e17      was hit by p156     at       11870.867 years
+ e14      was hit by p164     at       13716.790 years
+ e18      was hit by p199     at       14127.493 years
+ e14      was hit by p120     at       15394.618 years
+ e14      was hit by p161     at       15429.535 years
+ e11      was hit by p111     at       15920.998 years
+ e17      was hit by p177     at       16064.641 years
+ e22      was hit by p224     at       16159.833 years
+ e19      was hit by p158     at       16228.352 years
+ e10      was hit by e07      at       16396.357 years
+ e15      was hit by p152     at       17896.614 years
+ e08      was hit by p099     at       17902.786 years
+ e10      was hit by e09      at       17911.339 years
+ e13      was hit by p141     at       18594.419 years
+ e15      was hit by p150     at       18685.042 years
+ e16      was hit by p163     at       19931.507 years
+ e13      was hit by p104     at       20142.651 years
+ e03      was hit by e08      at       20245.732 years
+ e14      was hit by p112     at       20647.605 years
+ e17      was hit by p183     at       20925.983 years
+ e04      was hit by e06      at       24002.832 years
+ e14      was hit by p151     at       24472.424 years
+ e13      was hit by p110     at       27015.801 years
+ e15      was hit by p189     at       28350.439 years
+ e11      was hit by p125     at       29548.088 years
+ e14      was hit by p129     at       29752.073 years
+ e19      was hit by p204     at       31053.828 years
+ e13      was hit by e14      at       32206.751 years
+ e13      was hit by p160     at       35787.957 years
+ e13      was hit by p149     at       42559.941 years
+ e12      was hit by p146     at       42571.410 years
+ e13      was hit by p132     at       44784.760 years
+ e12      was hit by p137     at       45156.614 years
+ e18      was hit by e16      at       47754.812 years
+ e20      was hit by p228     at       50499.039 years
+ e11      was hit by p103     at       54585.261 years
+ e13      was hit by p142     at       55192.282 years
+ e11      was hit by p155     at       60493.858 years
+ e10      was hit by p115     at       63824.103 years
+ e19      was hit by e21      at       64872.909 years
+ e13      was hit by p181     at       66718.568 years
+ e18      was hit by p216     at       81285.954 years
+ e11      was hit by e12      at       82259.055 years
+ e15      was hit by p124     at       87514.312 years
+ e18      was hit by p171     at       87832.180 years
+ e18      was hit by p198     at       93002.837 years
+ e18      was hit by p176     at       99388.507 years
+ e18      was hit by p206     at      100956.275 years
+ e15      was hit by p178     at      116401.774 years
+ e13      was hit by p188     at      117146.425 years
+ e15      was hit by p154     at      118708.492 years
+ e20      was hit by p212     at      137308.665 years
+ e17      was hit by p180     at      154582.586 years
+ e17      was hit by p167     at      170554.131 years
+ e15      was hit by p182     at      220596.738 years
+ e15      was hit by p192     at      245472.508 years
+ e11      was hit by p186     at      246516.099 years
+ e13      was hit by p170     at      281591.529 years
+ e03      was hit by e01      at      294499.436 years
+ e19      was hit by p207     at      302577.460 years
+ e04      was hit by p134     at      343640.163 years
+ e11      was hit by p148     at      369245.791 years
+ e20      was hit by p191     at      379669.841 years
+ e20      was hit by p221     at      406400.833 years
+ e13      was hit by e17      at      425455.242 years
+ e18      was hit by p190     at      510883.695 years
+ e20      was hit by e22      at      566145.423 years
+ e18      was hit by p209     at      631668.254 years
+ e18      was hit by p187     at      714454.491 years
+ e20      was hit by p223     at      722911.335 years
+ e20      was hit by p195     at      751646.597 years
+ e11      was hit by e10      at      832618.155 years
+ e20      was hit by p219     at      875339.721 years
+ e19      was hit by p201     at      917283.474 years
+ e20      was hit by p220     at     1082771.830 years
+ e19      was hit by p225     at     1112427.684 years
+ e19      was hit by e15      at     1370395.584 years
+ e03      was hit by e04      at     1516186.655 years
+ e20      was hit by p214     at     1690342.062 years
+ e19      was hit by p226     at     1793180.335 years
+ e20      was hit by p185     at     1877068.787 years
+ e19      was hit by p208     at     3042187.573 years
+ e19      was hit by p200     at     3984567.228 years
+ e19      was hit by p143     at     5212527.274 years
+ e13      was hit by p211     at     5508301.958 years
+ e20      was hit by p135     at     7268919.206 years
+
+   Integration complete.
+
+   Fractional energy change due to integrator:   1.27181E-04
+   Fractional angular momentum change:           5.78218E-09
+
+   Fractional energy change due to collisions/ejections:  5.00375E-02
+   Fractional angular momentum change:                    0.00000E+00
+
+   Continuing integration from dump files at     10000000.0000000 years
+
+ e18      was hit by p174     at    11896262.675 years
+ e13      was hit by e18      at    13931704.409 years
+ p215     ejected at   24735370.1574264 years
+ p157     ejected at   25843241.6153320 years
+ p173     ejected at   30024810.1300479 years
+ p210     ejected at   41945367.0088980 years
+ p218     ejected at   58653948.6652977 years
+ p217     ejected at   60671887.0636550 years
+ e13      was hit by p222     at    67965600.937 years
+ e13      was hit by p175     at    71246800.445 years
+ e20      was hit by p203     at    80825049.336 years

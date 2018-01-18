@@ -1,0 +1,34 @@
+#!/bin/bash
+
+
+for file in `ls */info.out`; do
+     grep  "was hit by" info.out > tree.txt
+     sed 's/e//g' tree.txt > tree1.txt
+     sed 's/p/1/g' tree1.txt > tree2.txt
+done
+
+
+
+
+for file in `ls */big.in`; do
+    # fix line folding and rename to .new
+    sed ':a;;N;$!ba;s/\n  /  /g' $file > $file.new
+    grep -v "e" file > temp && mv temp bigparams.txt
+    grep  "e" big.in > temp && mv temp waterbig.txt
+done
+
+for file in `ls */small.in`; do
+    grep -v "e" small.in > temp && mv temp smallparams.txt
+    grep  "e" small.in > temp && mv temp watersmall.txt
+done
+
+for file in `ls */waterbig.txt`; do
+    sed 's/=/ /g' waterbig.txt > waterbig2.txt
+done
+
+for file in `ls */watersmall.txt`; do
+    sed 's/=/ /g' watersmall.txt > watersmall2.txt
+
+
+
+done
